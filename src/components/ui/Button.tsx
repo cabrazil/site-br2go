@@ -25,7 +25,7 @@ export function Button({
 
   const variants = {
     primary:
-      "bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] active:scale-[0.98] shadow-sm",
+      "bg-[var(--accent)] text-[var(--accent-foreground)] font-semibold hover:bg-[var(--accent-hover)] active:scale-[0.98] shadow-sm",
     secondary:
       "bg-[var(--muted)] text-[var(--foreground)] hover:bg-[var(--border)] active:scale-[0.98]",
     ghost:
@@ -74,7 +74,7 @@ export function LinkButton({
 
   const variants = {
     primary:
-      "bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] active:scale-[0.98] shadow-sm",
+      "bg-[var(--accent)] text-[var(--accent-foreground)] font-semibold hover:bg-[var(--accent-hover)] active:scale-[0.98] shadow-sm",
     secondary:
       "bg-[var(--muted)] text-[var(--foreground)] hover:bg-[var(--border)] active:scale-[0.98]",
     ghost:
