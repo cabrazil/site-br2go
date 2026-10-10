@@ -206,6 +206,18 @@ export const SCHOOLASSIST_BADGES = [
   "Automações",
 ];
 
+// ─── Case Badges — Infra & Database Tuning ───────────────────────────────────
+export const INFRA_BADGES = [
+  "PostgreSQL",
+  "Linux (Ubuntu/Debian)",
+  "Docker",
+  "Performance Tuning",
+  "DBA",
+  "DevOps",
+  "Backup & Restore",
+  "Infraestrutura",
+];
+
 // ─── Trust Bar ──────────────────────────────────────────────────────────────────
 export const TRUST_BAR_ITEMS = [
   "Estratégia",

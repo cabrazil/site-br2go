@@ -1,8 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Film, HeartPulse, BookOpen } from "lucide-react";
-import { VIBESFILM_BADGES, VETTUTOR_BADGES, SCHOOLASSIST_BADGES } from "@/lib/constants";
+import { ArrowUpRight, Film, HeartPulse, BookOpen, Database } from "lucide-react";
+import {
+  VIBESFILM_BADGES,
+  VETTUTOR_BADGES,
+  SCHOOLASSIST_BADGES,
+  INFRA_BADGES,
+} from "@/lib/constants";
 import { Badge } from "@/components/ui/Badge";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { AnimatedSection, StaggerContainer, staggerItem } from "@/components/ui/AnimatedSection";
@@ -112,7 +117,7 @@ export function CaseStudy() {
                     {[
                       { label: "App Mobile", desc: "iOS e Android com React Native" },
                       { label: "Plataforma Web", desc: "Next.js com SEO técnico avançado" },
-                      { label: "Curadoria com IA", desc: "Análise emocional automatizada" },
+                      { label: "Curadoria IA (Jev Engine)", desc: "Enriquecimento semântico e scoring emocional" },
                       { label: "Backend & API", desc: "Fastify + PostgreSQL + Supabase" },
                     ].map((item) => (
                       <div key={item.label} className="flex flex-col gap-0.5">
@@ -122,8 +127,8 @@ export function CaseStudy() {
                     ))}
                   </div>
 
-                  <a href="/projetos/vibesfilm" className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link" aria-label="Conhecer o projeto Vibesfilm">
-                    Conhecer projeto
+                  <a href="#contato" className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link" aria-label="Conversar sobre o projeto Vibesfilm">
+                    Conversar sobre este projeto
                     <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-150" />
                   </a>
                 </div>
@@ -234,8 +239,8 @@ export function CaseStudy() {
                     ))}
                   </div>
 
-                  <a href="/projetos/vettutor" className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link" aria-label="Conhecer o projeto VetTutor">
-                    Conhecer projeto
+                  <a href="#contato" className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link" aria-label="Conversar sobre o projeto VetTutor">
+                    Conversar sobre este projeto
                     <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-150" />
                   </a>
                 </div>
@@ -295,8 +300,8 @@ export function CaseStudy() {
                     ))}
                   </div>
 
-                  <a href="/projetos/school-assist" className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link" aria-label="Conhecer o projeto School Assist">
-                    Conhecer projeto
+                  <a href="#contato" className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link" aria-label="Conversar sobre o projeto School Assist">
+                    Conversar sobre este projeto
                     <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-150" />
                   </a>
                 </div>
@@ -343,6 +348,109 @@ export function CaseStudy() {
                     {/* Rodapé */}
                     <text x="150" y="274" textAnchor="middle" fontSize="8" fill="var(--muted-foreground)" fillOpacity="0.4" fontFamily="Inter, sans-serif" letterSpacing="1">WHATSAPP • IA • LGPD</text>
                   </svg>
+                </div>
+              </div>
+            </article>
+          </motion.div>
+
+          {/* ─── Card 4: Infraestrutura & PostgreSQL Tuning ───────────────── */}
+          <motion.div variants={staggerItem}>
+            <article
+              className="relative rounded-2xl border border-[var(--card-border)] bg-[var(--card)] overflow-hidden hover:border-emerald-500/30 transition-all duration-300 hover:shadow-lg"
+              aria-label="Case Infraestrutura e PostgreSQL"
+            >
+              <div className="h-[3px] w-full bg-gradient-to-r from-emerald-500 via-teal-500 to-transparent" />
+              <div className="grid grid-cols-1 lg:grid-cols-5 gap-0">
+                {/* Visual — Benchmarking de Restore (esquerda) */}
+                <div className="lg:col-span-2 relative min-h-[280px] lg:min-h-0 bg-[var(--muted)] flex items-center justify-center overflow-hidden order-2 lg:order-1">
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-48 h-48 rounded-full bg-emerald-500/8 blur-3xl" />
+                  </div>
+                  <svg viewBox="0 0 300 300" fill="none" className="w-64 h-64 relative z-10" aria-hidden="true">
+                    {/* Fundo do card interno */}
+                    <rect x="25" y="40" width="250" height="220" rx="14" fill="var(--card)" stroke="var(--border)" strokeWidth="1.2" />
+
+                    {/* Header do Card interno */}
+                    <circle cx="50" cy="65" r="10" fill="var(--muted)" stroke="var(--border)" strokeWidth="1" />
+                    <text x="50" y="69" textAnchor="middle" fontSize="11">🗄️</text>
+                    <text x="68" y="66" fontSize="10" fontWeight="bold" fill="var(--foreground)" fontFamily="Inter, sans-serif">PostgreSQL Restore Benchmark</text>
+                    <text x="68" y="77" fontSize="8" fill="var(--muted-foreground)" fontFamily="Inter, sans-serif">Base de dados de 4GB • Linux + Docker</text>
+
+                    {/* Divisória */}
+                    <line x1="38" y1="92" x2="262" y2="92" stroke="var(--border)" strokeWidth="1" strokeDasharray="3 3" />
+
+                    {/* Barra Antes */}
+                    <text x="40" y="118" fontSize="9" fontWeight="600" fill="var(--muted-foreground)" fontFamily="Inter, sans-serif">Antes (Sem Tuning):</text>
+                    <text x="260" y="118" textAnchor="end" fontSize="10" fontWeight="bold" fill="#ef4444" fontFamily="Inter, sans-serif">3h 00min</text>
+                    <rect x="40" y="126" width="220" height="12" rx="4" fill="var(--muted)" />
+                    <rect x="40" y="126" width="220" height="12" rx="4" fill="#f87171" fillOpacity="0.75" />
+
+                    {/* Barra Depois */}
+                    <text x="40" y="165" fontSize="9" fontWeight="600" fill="var(--foreground)" fontFamily="Inter, sans-serif">Depois (Docker + Tuning):</text>
+                    <text x="260" y="165" textAnchor="end" fontSize="10" fontWeight="bold" fill="#10b981" fontFamily="Inter, sans-serif">12 min</text>
+                    <rect x="40" y="173" width="220" height="12" rx="4" fill="var(--muted)" />
+                    <rect x="40" y="173" width="28" height="12" rx="4" fill="#10b981" />
+
+                    {/* Badge Destaque de Redução */}
+                    <rect x="40" y="202" width="220" height="40" rx="8" fill="var(--muted)" stroke="#10b981" strokeWidth="1" strokeOpacity="0.3" />
+                    <text x="150" y="219" textAnchor="middle" fontSize="11" fontWeight="bold" fill="#10b981" fontFamily="Inter, sans-serif">⚡ 93% Menos Tempo de Espera</text>
+                    <text x="150" y="233" textAnchor="middle" fontSize="8" fill="var(--muted-foreground)" fontFamily="Inter, sans-serif">Velocidade ~15x superior com recursos otimizados</text>
+
+                    {/* Rodapé SVG */}
+                    <text x="150" y="280" textAnchor="middle" fontSize="8" fill="var(--muted-foreground)" fillOpacity="0.4" fontFamily="Inter, sans-serif" letterSpacing="1">UBUNTU • DEBIAN • DOCKER • POSTGRESQL</text>
+                  </svg>
+                </div>
+
+                {/* Conteúdo (direita) */}
+                <div className="lg:col-span-3 p-10 lg:p-12 order-1 lg:order-2">
+                  <div className="flex items-start justify-between gap-4 mb-8">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                        <Database className="w-5 h-5 text-emerald-500" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-[var(--foreground)]">Otimização de Infraestrutura & PostgreSQL</h3>
+                        <p className="text-xs text-[var(--muted-foreground)] mt-0.5">DevOps, Linux & Banco de Dados • 2024</p>
+                      </div>
+                    </div>
+                    <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                      -93% Tempo
+                    </span>
+                  </div>
+
+                  <p className="text-base text-[var(--muted-foreground)] leading-relaxed mb-8 max-w-xl">
+                    Reestruturação e configuração de servidores Linux (<strong className="font-medium text-[var(--foreground)]">Ubuntu e Debian</strong>) para hospedar instâncias PostgreSQL conteinerizadas com <strong className="font-medium text-[var(--foreground)]">Docker</strong>. Ajuste fino de memória compartilhada, I/O e parâmetros de engine, reduzindo o restore de uma base de 4GB de <strong className="font-medium text-[var(--foreground)]">3 horas para apenas 12 minutos</strong>.
+                  </p>
+
+                  <div className="flex flex-wrap gap-2 mb-10">
+                    {INFRA_BADGES.map((badge) => (
+                      <Badge key={badge} variant="muted">{badge}</Badge>
+                    ))}
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+                    {[
+                      { label: "Tempo de Restore", desc: "De 3 horas para 12 minutos (-93%)" },
+                      { label: "Isolamento com Docker", desc: "Containers organizados e reprodutíveis" },
+                      { label: "Tuning de PostgreSQL", desc: "Otimização de RAM, buffers e checkpoint" },
+                      { label: "Ambiente Linux", desc: "Deploy e configuração em Ubuntu e Debian" },
+                    ].map((item) => (
+                      <div key={item.label} className="flex flex-col gap-0.5">
+                        <span className="text-xs font-semibold text-[var(--foreground)]">{item.label}</span>
+                        <span className="text-xs text-[var(--muted-foreground)]">{item.desc}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <a
+                    href="#contato"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/link"
+                    aria-label="Conversar sobre projetos de infraestrutura e banco de dados"
+                  >
+                    Conversar sobre este projeto
+                    <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-150" />
+                  </a>
                 </div>
               </div>
             </article>

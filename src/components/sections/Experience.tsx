@@ -22,10 +22,10 @@ export function Experience() {
             />
             <div className="mt-10 space-y-5">
               <p className="text-base text-[var(--muted-foreground)] leading-relaxed">
-                Nossa experiência vai muito além das linguagens e frameworks. Entendemos ciclos de produto, falhas de escalabilidade, débito técnico, liderança de equipes e a pressão real de manter sistemas críticos no ar.
+                Nossa experiência traz a visão estrutural de arquitetura, boas práticas, débito técnico e a responsabilidade real de manter sistemas críticos operando no mundo real.
               </p>
               <p className="text-base text-[var(--muted-foreground)] leading-relaxed">
-                Isso nos permite tomar <strong className="font-medium text-[var(--foreground)]">decisões melhores</strong>, mais rápido — e entregar produtos que duram.
+                Aliamos essa sólida base de engenharia ao <strong className="font-medium text-[var(--foreground)]">uso intensivo e inteligente de ferramentas de IA</strong>. É essa combinação que potencializa nossa produtividade, encurta prazos e garante alto rigor na resolução dos desafios do negócio.
               </p>
             </div>
 
