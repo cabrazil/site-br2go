@@ -204,12 +204,12 @@ export function CaseStudy() {
                       </div>
                       <div>
                         <h3 className="text-xl font-bold text-[var(--foreground)]">VetTutor</h3>
-                        <p className="text-xs text-[var(--muted-foreground)] mt-0.5">Em desenvolvimento • 2025</p>
+                        <p className="text-xs text-[var(--muted-foreground)] mt-0.5">Em produção • 2025</p>
                       </div>
                     </div>
-                    <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-                      Beta
+                    <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                      Live
                     </span>
                   </div>
 
@@ -265,12 +265,12 @@ export function CaseStudy() {
                       </div>
                       <div>
                         <h3 className="text-xl font-bold text-[var(--foreground)]">School Assist</h3>
-                        <p className="text-xs text-[var(--muted-foreground)] mt-0.5">Em desenvolvimento • 2025</p>
+                        <p className="text-xs text-[var(--muted-foreground)] mt-0.5">Em produção • 2025</p>
                       </div>
                     </div>
-                    <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-                      Beta
+                    <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                      Live
                     </span>
                   </div>
 
@@ -414,8 +414,8 @@ export function CaseStudy() {
                       </div>
                     </div>
                     <span className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                      -93% Tempo
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                      Live
                     </span>
                   </div>
 
