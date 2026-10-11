@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="1600" height="480">
+  <g transform="translate(60, 90)">
+    <rect width="300" height="300" rx="72" fill="#0c5c6f" fill-opacity="0.12" stroke="#0c5c6f" stroke-width="12" stroke-opacity="0.45"/>
+    <rect x="42" y="42" width="108" height="108" rx="24" fill="#0c5c6f"/>
+    <rect x="174" y="174" width="72" height="72" rx="16" fill="#0c5c6f" fill-opacity="0.95"/>
+    <path d="M168 84h78M84 168v78" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-opacity="0.95"/>
+  </g>
+  <text x="430" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="210" font-weight="900" letter-spacing="-4">
+    <tspan fill="#090d12">BR</tspan><tspan fill="#0c5c6f">2</tspan><tspan fill="#090d12">GO</tspan>
+  </text>
+  <text x="440" y="360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#64748b" letter-spacing="8">PRODUTOS DIGITAIS</text>
+</svg>
